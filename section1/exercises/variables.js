@@ -42,11 +42,11 @@ console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-//I used a string data type with the first variable because my name is just a line of text.
-//I used the boolean data type for the second variable because it was a prompt
-//that could be answered with true or false
-//I used a numeric data type for the third variable because the prompt asked for an
-//amount answerable by a number
+   // I used a string data type with the first variable because my name is just a line of text.
+   // I used the boolean data type for the second variable because it was a prompt
+   // that could be answered with true or false
+   // I used a numeric data type for the third variable because the prompt asked for an
+   // amount answerable by a number
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
