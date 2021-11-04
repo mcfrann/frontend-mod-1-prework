@@ -23,9 +23,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+console.log("Is numberTeachers less than numberStudents?", numberTeachers > numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 // this should log: true
 
 /*
@@ -35,6 +37,7 @@ perform this evaluation
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 // this should log: false
 
 /*
@@ -48,18 +51,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 // this should log: true
 
 
@@ -74,20 +82,29 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 console.log(4 < 9);
 //YOU DO: Explain.
+// Logging the result of the comparison: is 4 less than 9?
+// Should log: true, because 4 is less than 9
 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
+// Logging the result of the comparison: is 4 less than books?
+// Should log: false, because the value of books is 3 which is less than 4
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// Logging the result of the comparison: is friends greater than siblings?
+// Should log: true, because the value of friends (6) is greater than the value of siblings (2)
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+// Logging the result of the comparison: is attendees not equal to meals?
+// Should log: true, because the value of attendees (9) is not equal to the evaluate
+// of the value of meals (8)
 
 
 //-------------------
@@ -100,8 +117,11 @@ var finishedHomework = false;
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
 console.log(isHungry && finishedHomework);
+// Should log: false
+
 // Determine if the user is hungry or has completed their homework
 console.log(isHungry || finishedHomework);
+// Should log: true
 
 var lovesToPlay = true;
 var lovesDogPark = false;
@@ -110,18 +130,27 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
+// Should log: true
 
 
 // Determine if the dog loves to play and loves the dog park
+console.log(lovesToPlay && lovesDogPark);
+// Should log: false
 
 
 // Determine if the dog loves to play or loves the dog park
+console.log(lovesToPlay || lovesDogPark);
+// Should log: true
 
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// The final code evaluated to 1 because we compared values of different types,
+// a boolean value and a numberic value.
 
 //-------------------
 // FINAL CHECK
