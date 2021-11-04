@@ -13,56 +13,56 @@
     as my journey at Turing progresses, I will develop a lot of new habits that work the best
     for me in becoming a SuperLearner!
 
-1. What are the data types you learned about in this section? In your own words, define each.
+2. What are the data types you learned about in this section? In your own words, define each.
 
-Numeric data types are values that have numeric value, including negative numbers and decimals.
-(5432 6.75 -0.65)
+    Numeric data types are values that have numeric value, including negative numbers and decimals.
+    (5432 6.75 -0.65)
 
-String data types are values within quotes that are a line of text including numbers and
-other characters.
-("Hello, how are you?" 'I have 23 cats!')
+    String data types are values within quotes that are a line of text including numbers and
+    other characters.
+    ("Hello, how are you?" 'I have 23 cats!')
 
-Boolean data types are values that answer true or false.
+    Boolean data types are values that answer true or false.
 
-1. How would you log the string `"Hello World!"` to the console?
+3. How would you log the string `"Hello World!"` to the console?
 
-  console.log("Hello World!");
+    console.log("Hello World!");
 
-1. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
+4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
-// two forward slashes or /*text between a forward slash and asterisk*/
+    // two forward slashes or /*text between a forward slash and asterisk*/
 
-1. In your own words, what is a variable? How would you explain it to a 5 year old?
+5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
-A variable is data that we determine, but that we can also change later on.
+    A variable is data that we determine, but that we can also change later on.
 
-1. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
+6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
-Although I'm trying to limit my use of this app, I used Instagram a lot. Examples of three
-variables Instagram uses are:
+    Although I'm trying to limit my use of this app, I used Instagram a lot. Examples of three
+    variables Instagram uses are:
 
-  var likeQuantity; (This would be a numeric data type)
-  var followingUser; (This would be a Boolean data type)
-  var caption; (This would be a string data type)
+    var likeQuantity; (This would be a numeric data type)
+    var followingUser; (This would be a Boolean data type)
+    var caption; (This would be a string data type)
 
-1. In your own words, explain what concatenation is.
+7. In your own words, explain what concatenation is.
 
-Concatenation is the joining together of variables.
+    Concatenation is the joining together of variables.
 
-1. Think of a site or app you use frequently. Where do you think the developers used concatenation?
+8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
-Again, Instagram uses concatenation in examples phrases like "View all 243 comments" and
-"ldfl and 34 others liked your photo"
+    Again, Instagram uses concatenation in examples phrases like "View all 243 comments" and
+    "ldfl and 34 others liked your photo"
 
-  console.log("View all " + commentQuantity + " comments");
+    console.log("View all " + commentQuantity + " comments");
 
-  console.log(userName + " and " + likeQuantity " liked your photo");
+    console.log(userName + " and " + likeQuantity " liked your photo");
 
 
-1. What questions do you still have about the work we've done so far? (not having a question is not an option)
+9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 
-When you choose to write out interpolation like this, is it the only exception to needing
-a semicolon at the end? I noticed in the Mod 1 Prework section on this that it didn't include a
-semicolon:
+    When you choose to write out interpolation like this, is it the only exception to needing
+    a semicolon at the end? I noticed in the Mod 1 Prework section on this that it didn't include a
+    semicolon:
 
-  var snackCount = `I have ${quantity} ${snacks}!`
+    var snackCount = `I have ${quantity} ${snacks}!`
