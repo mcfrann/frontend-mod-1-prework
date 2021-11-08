@@ -19,11 +19,18 @@ this aspect of a Growth Mindset I believe will be extremely beneficial in not on
 journey, but in all areas of my life!
 
 1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.
+- Instagram definitely uses arrays in lists of users, followers, likes, and photos.
 
 1. In your own words, explain what an Array method is.
+- An array is a list of data; items within the array can be various data types such as strings, numbers, or booleans.
 
 1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
+- The purpose of a loop is to repeat code for an `n` number of times as long as the condition returns as true.
+We could use a loop with an array if we want to run code for each item in the array vs. if we just
+want to run it on its own based off of the condition we set using numbers.
 
 1. If you had to teach a 5 year old about loops, how would you explain it?
+- A loop is when you repeat a certain action for as long as something we determine is true.
 
 1. What questions do you still have about Arrays and loops?
+- I guess I am a little unclear on what a loop does or what the use of it is on its own without being applied to an array.
