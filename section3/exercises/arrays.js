@@ -29,8 +29,8 @@ console.log(animals.length);
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
 
-animals.splice(2,1,"Gorilla");
-console.log(animals);
+animals[2] = "Gorilla";
+console.log(animals[2]);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 
