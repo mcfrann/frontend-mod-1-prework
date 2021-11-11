@@ -58,7 +58,7 @@ var purpose = "class";
 
 //Either:
 
-var quantitySuppliesPurpose = `I bought ${quantity} ${supplies} for my ${purpose}!`
+var quantitySuppliesPurpose = `I bought ${quantity} ${supplies} for my ${purpose}!`;
 
 console.log(quantitySuppliesPurpose);
 
