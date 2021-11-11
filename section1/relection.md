@@ -30,7 +30,7 @@
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 
-    // two forward slashes or /*text between a forward slash and asterisk*/
+    After two forward slashes or text between a forward slash and asterisk
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
@@ -47,7 +47,7 @@
 
 7. In your own words, explain what concatenation is.
 
-    Concatenation is the joining together of variables.
+    Concatenation is the joining together of variables within a string.
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatenation?
 
