@@ -17,8 +17,8 @@ console.log(name);
 
 // EXAMPLE: Write code below to add 2 to the variable `students` and
 // log the result:
-var enrolledStudents = 22 + 2;
-console.log(enrolledStudents);
+var students = 22;
+console.log(students + 2);
 
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
@@ -42,24 +42,24 @@ console.log(numberOfPets);
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
-   // I used a string data type with the first variable because my name is just a line of text.
-   // I used the boolean data type for the second variable because it was a prompt
+   // I used a string data type with the firstName variable because my name is just a line of text.
+   // I used the boolean data type for the isHungry variable because it was a prompt
    // that could be answered with true or false
-   // I used a numeric data type for the third variable because the prompt asked for an
-   // amount answerable by a number
+   // I used a numeric/integer data type for the third variable because the prompt asked for an
+   // amount answerable by a number/integer
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
 
-var firstName = 'Joseph';
+firstName = 'Joseph';
 console.log(firstName);
 
-var isHungry = false;
+isHungry = false;
 console.log(isHungry);
 
-var numberOfPets = 1;
+numberOfPets = 1;
 console.log(numberOfPets);
 
 // YOU DO:
