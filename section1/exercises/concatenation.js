@@ -23,8 +23,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
-// The data type logged will be a string because it will be a phrase containing
-// numbers and letters
+// The data type logged will be a string because it will be numbers and letters within quotes.
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -50,11 +49,11 @@ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
 
-var correctAmount = 1;
+var amount = 1;
 var action = "eat";
 var characteristic = "insatiable"
 
-console.log("I can never " + action + " just " + correctAmount + " donut" + " because I am " + characteristic + "!");
+console.log("I can never " + action + " just " + amount + " donut" + " because I am " + characteristic + "!");
 
 //-------------------
 // FINAL CHECK
