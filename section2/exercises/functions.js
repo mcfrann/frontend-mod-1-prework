@@ -57,8 +57,8 @@ greetMe("Jenny");
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
 
-function total(weight, girth) {
-  console.log(weight + girth);
+function total(numOne, numTwo) {
+  console.log(numOne + numTwo);
 }
 
 total(2, 7);
