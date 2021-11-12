@@ -23,7 +23,7 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
-console.log("Is numberTeachers less than numberStudents?", numberTeachers > numberStudents);
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
@@ -82,29 +82,34 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 //YOU DO: Explain.
-// Logging the result of the comparison: is 4 less than 9?
+// Logs the result of the comparison: is 4 less than 9?
 // Should log: true, because 4 is less than 9
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-// Logging the result of the comparison: is 4 less than books?
+// Declares variable books assigned to the value of 3
+// Logs the result of the comparison: is 4 less than the value in variable books?
 // Should log: false, because the value of books is 3 which is less than 4
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-// Logging the result of the comparison: is friends greater than siblings?
+// Declares variable friends assigned to value of 6, and variable siblings assigned
+// to value of 2
+// Logs the result of the comparison: is amount of friends greater than amount siblings?
 // Should log: true, because the value of friends (6) is greater than the value of siblings (2)
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-// Logging the result of the comparison: is attendees not equal to meals?
-// Should log: true, because the value of attendees (9) is not equal to the evaluate
-// of the value of meals (8)
+// Declares variable attendees assigned to value of 9, and variable meals assigned
+// to value of 8
+// Logs the result of the comparison: is attendees not equal to meals?
+// Should log: true, because the value of attendees (9) is not equal to
+// the value of meals (8)
 
 
 //-------------------
@@ -145,12 +150,15 @@ console.log(lovesToPlay || lovesDogPark);
 
 
 // Determine if the dog loves to play and is a puppy
-console.log(lovesToPlay && age);
+console.log(lovesToPlay && age <= 1);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-// The final code evaluated to 1 because we compared values of different types,
-// a boolean value and a numberic value.
+// There were no specifications on what age made it a dog or a puppy so I just assumed
+// older than 1 would constitute an adult dog for the sake of the code because the age
+// 1 alone doesn't give the code enough information since the values of the variables
+// involved are different data types. When I applied the other comparison, less
+// than or equal to 1, the code evaluated to true because the puppy loves to play and is 1.
 
 //-------------------
 // FINAL CHECK
