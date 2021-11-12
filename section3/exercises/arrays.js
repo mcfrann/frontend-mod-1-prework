@@ -30,7 +30,7 @@ console.log(animals.length);
 // array to "Gorilla"
 
 animals[2] = "Gorilla";
-console.log(animals[2]);
+console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 
@@ -38,6 +38,7 @@ animals.push("Tiger");
 console.log(animals);
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
+//first I will write code that reassigns gorilla back to elephant since we changed it above
 
 animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals[2]);
@@ -98,7 +99,7 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // 1: Spotify, lists are used in playlists of songs
 var songs = ["first song of this album", "second song of this album", "third song of this album"];
 // 2: Tumblr, lists are used in a users archive of previous posts
-var posts = ["artsy post", "inspirational quote", "gif"];
+var tumblrPosts = ["artsy post", "inspirational quote", "gif"];
 // 3: Messenger, lists are used in a users list of contacts
 var contacts = ["Lisa Smith", "Joe Williams", "Henry Conway"];
 
@@ -126,7 +127,7 @@ var chargerType = "car";
 if (percentBatteryLeft >= 15 || hasCharger == true && chargerType == "car") {
   console.log("You can call an Uber!");
 } else {
-  console.log("You cannot call an Uber...");
+  console.log("Battery too low");
 }
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
@@ -136,13 +137,13 @@ if (percentBatteryLeft >= 15 || hasCharger == true && chargerType == "car") {
 //This first line is my conditional statement: If my phone's battery is equal
 //to or greater than 15, OR if I have a charger and it is a car charger, then...
 if (percentBatteryLeft >= 15 || hasCharger == true && chargerType == "car") {
-//this next line determines the result if my above conditions are met, in this
+//this next line determines the result if one of my above conditions are met, in this
 //case, the result will say "You can call an Uber!"
   console.log("You can call an Uber!");
 //This next line insinuates if the above conditions aren't met, then...
 } else {
-//the result will say "You cannot call an Uber..."
-  console.log("You cannot call an Uber...");
+//the result will say "Battery too low"
+  console.log("Battery too low");
 }
 
 
