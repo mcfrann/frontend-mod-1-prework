@@ -158,7 +158,7 @@ console.log(spiderman);
 
 var wonderWoman = new SuperHero("Wonder Woman", "magic lasso", 25);
 console.log(wonderWoman);
-wonderWoman.sayName("Wonder Woman");
+wonderWoman.sayName();
 wonderWoman.gainPower(300);
 
 
