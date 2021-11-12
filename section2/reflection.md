@@ -26,12 +26,14 @@
 
     A conditional statement is a statement that can be evaluated as true or false
     that an `if` statement can then be applied to.
-    An example of this would be "I have less than four dollars
+    An example of this would be "If I have less than 1000 dollars, then I can't pay rent."
+    An application that probably uses a conditional is Instagram: "If you don't follow this user && their feed is private, then you can't see their feed."
 
 4. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
 
     You add "else if" for multiple conditions in an `if` statement. In my own words, the program then can read them like
-    "If scenario 1 happens, then this happens OR if scenario 2 happens, then this happens, OR if scenario 3 happens, then this happens."
+    "If scenario 1 happens, then this happens OR if scenario 2 happens, then this happens, OR if scenario 3 happens, then this happens,
+    otherwise, this happens."
 
 5. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
 
