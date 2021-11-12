@@ -45,7 +45,7 @@ for (var i = 0; i < numbers.length; i++) {
 // each name except the first two.
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
 
-for (var i = 0; i < names.length; i++) {
+for (var i = 2; i < names.length; i++) {
   console.log("Happy Birthday " + names[i] + "!");
 }
 
