@@ -3,14 +3,14 @@
 // Declare two variables - heroName AND specialAbility - set to strings
 
 var heroName = "Super Man";
-var specialAbility = "Bullet proof chest";
+var specialAbility = "bullet proof chest";
 
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
 //   catchphrase should be assigned to a string that uses interpolation to include the specialAbility
 
-var greeting = "Greetings!";
-var catchphrase = "Truth, justice, and the American way.";
+var greeting = "Greetings, I'm " + heroName;
+var catchphrase = `Truth, justice, and a ${specialAbility}.`;
 
 // Declare two variables - power AND energy - set to integers
 
@@ -138,8 +138,8 @@ class SuperHero {
     this.powerLevel = 100;
     this.energyLevel = 50;
   }
-  sayName(name) {
-    console.log(name);
+  sayName() {
+    console.log(this.name);
   }
   maximizeEnergy() {
     this.energyLevel = 1000;
