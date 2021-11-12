@@ -18,7 +18,7 @@ Make sure to run the file with node in your command line.
 // Prompt 1: Dog
 class Dog {
   constructor() {
-
+// no properties yet
   }
 }
 
