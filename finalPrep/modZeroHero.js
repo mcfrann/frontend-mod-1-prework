@@ -3,7 +3,7 @@
 // Declare two variables - heroName AND specialAbility - set to strings
 
 var heroName = "Super Man";
-var specialAbility = "bullet proof chest";
+var specialAbility = "bullet proof chest.";
 
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
